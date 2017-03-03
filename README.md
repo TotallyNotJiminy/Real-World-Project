@@ -6,4 +6,4 @@ A personalisable Android application designed for students to ease with healthy 
 
 
 Click this link to be taken the the home page for real.
-<a href="src/home.html" title="The food app">Home</a>
+<a href="website/src/home.html" title="The food app">Home</a>
