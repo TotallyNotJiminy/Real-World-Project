@@ -36,6 +36,18 @@ footer {
     border:solid;
     border-color:black;
 }
+.left {
+            width: 35%;
+            float: left;
+            text-align: right;
+        }
+
+ .right {
+            width: 35%;
+            margin-left: 5%;
+            float: left;
+            text-align: right;
+        }
 
 .left{
     width: 45%;
