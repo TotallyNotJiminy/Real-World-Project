@@ -10,6 +10,10 @@ body {
 	font-style: normal;
 	font-weight: 200;
 }
+.hold{
+	display:block;
+	
+}
 #DivLogo {
 	position: absolute;
 	width: 335px;
@@ -23,16 +27,24 @@ body {
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	height: 1000px;
+	height: 1200px;
 	background-color: #FFFFFF;
+}
+.login {
+	width: 100%;
+	height: 1%;
+	background-color: #FFFFFF;
+   
+	
 }
 /* Navigation */
 header {
 	width: 100%;
-	height: 5%;
+	height: 4%;
 	background-color: #52bad5;
 	border-bottom: 1px solid #2C9AB7;
 	position: relative;
+	
 }
 .logo {
 	color: #fff;
@@ -74,7 +86,7 @@ ul li:hover a {
 .hero_header {
 	color: #FFFFFF;
 	text-align: center;
-	margin-top: 0px;
+	margin-top: 15px;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
@@ -197,6 +209,7 @@ ul li:hover a {
 footer {
 	background-color: #FFFFFF;
 	padding-bottom: 35px;
+	width: 100%;
 }
 .footer_column {
 	width: 50%;
@@ -277,6 +290,62 @@ footer {
 .hidden {
 	display: none;
 }
+form {
+    border: 3px solid #f1f1f1;
+	display:inline-block;
+	margin-left: 25%;
+    margin-right:25%;
+    width: 50%;	
+}
+	
+
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+
+
+/* Add padding to containers */
+.log_container {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+}
 
 /* Mobile */
 @media (max-width: 321px) {
@@ -286,7 +355,7 @@ footer {
 	width: 335px;
 	height: 51px;
 	z-index: 1;
-	left: 1%;
+	left: 3%;
 	top: 6px;	
 }
 
@@ -373,11 +442,22 @@ nav ul li {
 	line-height: 22px;
 	text-align: center;
 }
+span.psw {
+ display: block;
+ float: none;
+    }
+ .cancelbtn {
+  width: 100%;
+}
+
 }
 
 /* Small Tablets */
 @media (min-width: 501px)and (max-width: 767px) {
 
+.container{
+  width: 100%;	
+}
 #DivLogo {
 	position: absolute;
 	width: 335px;
@@ -498,7 +578,7 @@ nav ul li {
 }
 
 /* Small Desktops */
-@media (min-width: 768px) and (max-width: 1096px) {
+@media (min-width: 768px) and (max-width: 1100px) {
 .text_column {
 	width: 100%;
 }
@@ -525,12 +605,15 @@ nav ul li {
 }
 @media (min-width: 322px)and (max-width: 500px) {
 
+.container{
+  width: 100%;	
+}
 #DivLogo {
 	position: absolute;
 	width: 335px;
 	height: 51px;
 	z-index: 1;
-	left: 4%;
+	left: 7%;
 	top: 6px;	
 }
 .hero {
@@ -641,6 +724,13 @@ nav ul li {
 }
 .footer_column {
 	width: 100%;
+}
+span.psw {
+ display: block;
+ float: none;
+    }
+ .cancelbtn {
+  width: 100%;
 }
 
 }
