@@ -1,0 +1,16 @@
+C:\Users\Admin\Source\Real-World-Project\F.app\F.app.Infrastructure\bin\Debug\F.app.Infrastructure.dll
+C:\Users\Admin\Source\Real-World-Project\F.app\F.app.Infrastructure\bin\Debug\F.app.Infrastructure.pdb
+C:\Users\Admin\Source\Real-World-Project\F.app\F.app.Infrastructure\bin\Debug\F.app.Core.dll
+C:\Users\Admin\Source\Real-World-Project\F.app\F.app.Infrastructure\bin\Debug\MongoDB.Bson.dll
+C:\Users\Admin\Source\Real-World-Project\F.app\F.app.Infrastructure\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\Admin\Source\Real-World-Project\F.app\F.app.Infrastructure\bin\Debug\MongoDB.Driver.dll
+C:\Users\Admin\Source\Real-World-Project\F.app\F.app.Infrastructure\bin\Debug\MongoDB.Driver.Legacy.dll
+C:\Users\Admin\Source\Real-World-Project\F.app\F.app.Infrastructure\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Admin\Source\Real-World-Project\F.app\F.app.Infrastructure\bin\Debug\F.app.Core.pdb
+C:\Users\Admin\Source\Real-World-Project\F.app\F.app.Infrastructure\bin\Debug\MongoDB.Bson.xml
+C:\Users\Admin\Source\Real-World-Project\F.app\F.app.Infrastructure\bin\Debug\MongoDB.Driver.xml
+C:\Users\Admin\Source\Real-World-Project\F.app\F.app.Infrastructure\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\Admin\Source\Real-World-Project\F.app\F.app.Infrastructure\bin\Debug\MongoDB.Driver.Legacy.xml
+C:\Users\Admin\Source\Real-World-Project\F.app\F.app.Infrastructure\obj\Debug\F.app.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Source\Real-World-Project\F.app\F.app.Infrastructure\obj\Debug\F.app.Infrastructure.dll
+C:\Users\Admin\Source\Real-World-Project\F.app\F.app.Infrastructure\obj\Debug\F.app.Infrastructure.pdb
