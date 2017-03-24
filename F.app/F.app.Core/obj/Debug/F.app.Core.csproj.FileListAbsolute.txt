@@ -12,3 +12,17 @@ C:\Users\Admin\Source\Real-World-Project\F.app\F.app.Core\bin\Debug\MongoDB.Driv
 C:\Users\Admin\Source\Real-World-Project\F.app\F.app.Core\obj\Debug\F.app.Core.csprojResolveAssemblyReference.cache
 C:\Users\Admin\Source\Real-World-Project\F.app\F.app.Core\obj\Debug\F.app.Core.dll
 C:\Users\Admin\Source\Real-World-Project\F.app\F.app.Core\obj\Debug\F.app.Core.pdb
+C:\Users\huntingc\Desktop\Real-World-Project\F.app\F.app.Core\bin\Debug\F.app.Core.dll
+C:\Users\huntingc\Desktop\Real-World-Project\F.app\F.app.Core\bin\Debug\F.app.Core.pdb
+C:\Users\huntingc\Desktop\Real-World-Project\F.app\F.app.Core\bin\Debug\MongoDB.Bson.dll
+C:\Users\huntingc\Desktop\Real-World-Project\F.app\F.app.Core\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\huntingc\Desktop\Real-World-Project\F.app\F.app.Core\bin\Debug\MongoDB.Driver.dll
+C:\Users\huntingc\Desktop\Real-World-Project\F.app\F.app.Core\bin\Debug\MongoDB.Driver.Legacy.dll
+C:\Users\huntingc\Desktop\Real-World-Project\F.app\F.app.Core\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\huntingc\Desktop\Real-World-Project\F.app\F.app.Core\bin\Debug\MongoDB.Bson.xml
+C:\Users\huntingc\Desktop\Real-World-Project\F.app\F.app.Core\bin\Debug\MongoDB.Driver.xml
+C:\Users\huntingc\Desktop\Real-World-Project\F.app\F.app.Core\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\huntingc\Desktop\Real-World-Project\F.app\F.app.Core\bin\Debug\MongoDB.Driver.Legacy.xml
+C:\Users\huntingc\Desktop\Real-World-Project\F.app\F.app.Core\obj\Debug\F.app.Core.csprojResolveAssemblyReference.cache
+C:\Users\huntingc\Desktop\Real-World-Project\F.app\F.app.Core\obj\Debug\F.app.Core.dll
+C:\Users\huntingc\Desktop\Real-World-Project\F.app\F.app.Core\obj\Debug\F.app.Core.pdb
