@@ -1,59 +1,86 @@
-﻿using MongoDB.Driver;
+﻿using F.app.Core.Interfaces;
+using MongoDB.Bson;
+using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using MongoDB.Driver.Builders;
+using MongoDB.Driver.Linq;
 
 namespace F.app.Infrastructure
 {
-    public class GenericRepository<TEntity> where TEntity : class
+    public class GenericRepository<TEntity> : IRepo<TEntity, ObjectId> where TEntity : IEntity
     {
-        #region Async Repo
-        private readonly MongoDatabase _dbContext;
+        private DataContext _context;
+        MongoCollection<TEntity> _collection;
 
-        public GenericRepository(MongoDatabase dbContext)
+        public GenericRepository(DataContext context)
         {
-            _dbContext = dbContext;
+            _context = context;
+            _collection = _context.GetCollection<TEntity>();
+        }
+        private IQueryable<TEntity> CreateSet()
+        {
+            return _collection.AsQueryable();
+        }
+        public virtual void Delete(TEntity entity)
+        {
+            try
+            {
+                _collection.Remove(Query<TEntity>.EQ(o => o.Id, entity.Id));
+            }
+            catch (Exception ex)
+            {
+                //NEED to handle ex
+                throw ex;
+            }
+            
         }
 
-        //public int Add(TEntity t)
-        //{
-        //    // add 
-        //}
+        public TEntity GetById(ObjectId id)
+        {
+            var set = CreateSet();
+            set = set.Where(x => x.Id == id);
+            return set.SingleOrDefault();
+        }
 
-        //public async Task<int> RemoveAsync(TEntity t)
-        //{
-        //    // remove
-        //}
+        public void Insert(TEntity entity)
+        {
+            entity.Id = ObjectId.GenerateNewId();
+            try
+            {
+                _collection.Insert<TEntity>(entity);
+            }
+            catch (Exception ex)
+            {
+                //NEED to handle ex
+                throw ex;
+            }
+        }
 
-        //public async Task<int> UpdateAsync(TEntity t)
-        //{
-        //    //update
-        //}
+        public IList<TEntity> List(Expression<Func<TEntity, bool>> predicate=null, Func<TEntity, string> order = null)
+        {
+            var set = CreateSet();
+            if (predicate != null)
+            {
+                set = set.Where(predicate);
+            }
+            if (order != null)
+            {
+                return set.OrderBy(order).ToList();
+            }
+            return set.ToList();
+        }
 
-        //public async Task<int> CountAsync()
-        //{
-        //    //count
-        //}
-
-        //public async Task<List<TEntity>> GetAllAsync()
-        //{
-        //    //get all
-        //}
-
-        //public async Task<TEntity> FindAsync(Expression<Func<TEntity, bool>> match)
-        //{
-        //    //find 1
-        //}
-        //public async Task<TEntity> FirstAsync(Expression<Func<TEntity, bool>> match)
-        //{
-        //    //find first
-        //}
-        //public async Task<List<TEntity>> FindAllAsync(Expression<Func<TEntity, bool>> match)
-        //{
-        //    //findall with expression
-        //}
-        #endregion
+        public void Update(TEntity entity)
+        {
+            var query = Query<TEntity>.EQ(o => o.Id, entity.Id);
+            var update = Update<TEntity>.Replace(entity);
+            _collection.Update(query, update);
+        }
     }
 }
+

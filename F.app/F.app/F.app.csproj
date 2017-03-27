@@ -278,6 +278,10 @@
       <Project>{4194fbe9-80fc-4e5b-a5d0-f3ed37b4fd20}</Project>
       <Name>F.app.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\F.app.Infrastructure\F.app.Infrastructure.csproj">
+      <Project>{cc9d9505-99dc-4711-8c82-781ba2015083}</Project>
+      <Name>F.app.Infrastructure</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

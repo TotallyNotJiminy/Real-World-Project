@@ -1,5 +1,8 @@
 ﻿using F.app.Core.Entities;
+using F.app.Core.Interfaces;
+using F.app.Infrastructure;
 using F.app.Models;
+using MongoDB.Bson;
 using MongoDB.Driver.Builders;
 using System;
 using System.Collections.Generic;
@@ -11,11 +14,16 @@ namespace F.app.Controllers
 {
     public class UsersController : Controller
     {
-        private readonly userDb Context = new userDb();
+        private IRepo<User,ObjectId> _context;
+   
+        public UsersController(IRepo<User,ObjectId> context)
+        {
+            _context = context;
+        }
         // GET: Users
         public ActionResult Index()
         {
-            var users = Context.users.FindAll().SetSortOrder(SortBy<User>.Ascending(r => r.FirstName));
+            var users = _context.List();
 
             return View(users);
         }
@@ -38,7 +46,7 @@ namespace F.app.Controllers
         {
             try
             {
-                Context.users.Insert(_user);
+                //Context.users.Insert(_user);
                 return RedirectToAction("Index");
             }
             catch

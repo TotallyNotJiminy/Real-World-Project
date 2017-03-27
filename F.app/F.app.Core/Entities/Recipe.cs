@@ -19,11 +19,10 @@ namespace F.app.Core.Entities
         public ObjectId Id { get; set; }
         public string PrepInstruction { get; set; }
         public float ApproxDuration { get; set; }
-        public IngredientQuantity IngredientQ { get; set; }
+        public List<IngredientQuantity> IngredientQ { get; set; }
         public int Rating { get; set; }
         public float Price { get; set; }
         public int TotCalories { get; set; }
-        public virtual List<Ingredient> Ingredients { get; set; }
 
     }
 }

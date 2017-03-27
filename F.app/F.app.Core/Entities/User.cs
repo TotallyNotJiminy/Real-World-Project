@@ -1,4 +1,5 @@
-﻿using MongoDB.Bson;
+﻿using F.app.Core.Interfaces;
+using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using System;
 using System.Collections.Generic;
@@ -13,7 +14,7 @@ namespace F.app.Core.Entities
         Ingredient ingredient;
         int rating;
     }
-    public class User
+    public class User : IEntity
     {
         [BsonId]
         public ObjectId Id { get; set; }

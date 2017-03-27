@@ -78,3 +78,5 @@ C:\Users\Admin\Source\Real-World-Project\F.app\F.app\obj\Debug\F.app.dll
 C:\Users\Admin\Source\Real-World-Project\F.app\F.app\obj\Debug\F.app.pdb
 C:\Users\Admin\Source\Real-World-Project\F.app\F.app\bin\F.app.Core.dll
 C:\Users\Admin\Source\Real-World-Project\F.app\F.app\bin\F.app.Core.pdb
+C:\Users\Admin\Source\Real-World-Project\F.app\F.app\bin\F.app.Infrastructure.dll
+C:\Users\Admin\Source\Real-World-Project\F.app\F.app\bin\F.app.Infrastructure.pdb
