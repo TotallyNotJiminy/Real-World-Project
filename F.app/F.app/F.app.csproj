@@ -260,7 +260,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\home.cshtml" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
     <Content Include="Views\Account\ConfirmEmail.cshtml" />
     <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
@@ -285,6 +285,7 @@
     <Content Include="Views\Users\Index.cshtml" />
     <Content Include="Views\Users\Create.cshtml" />
     <Content Include="Views\Home\Login.cshtml" />
+<<<<<<< HEAD
     <Content Include="Views\Home\Delivery.cshtml" />
     <Content Include="Views\Ingredients\Create.cshtml" />
     <Content Include="Views\Ingredients\Delete.cshtml" />
@@ -292,6 +293,9 @@
     <Content Include="Views\Ingredients\Edit.cshtml" />
     <Content Include="Views\Ingredients\Index.cshtml" />
     <Content Include="Views\Recipes\Create.cshtml" />
+=======
+    <Content Include="Views\Home\Index.cshtml" />
+>>>>>>> cd63a05e81bce1eb6762adfc400ff5e704b98133
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

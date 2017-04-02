@@ -44,11 +44,19 @@ namespace F.app.Controllers
 
             return View();
         }
+<<<<<<< HEAD
         public ActionResult Delivery()
         {
             ViewBag.Message = "Del us here at the Student Food App:";
 
             return View();
+=======
+
+        public ActionResult Delivery()
+        {
+
+         return View();
+>>>>>>> cd63a05e81bce1eb6762adfc400ff5e704b98133
         }
     }
 }
