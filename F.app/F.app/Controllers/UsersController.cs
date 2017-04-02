@@ -38,6 +38,7 @@ namespace F.app.Controllers
         public ActionResult startRating(int id)
         {
             List<Recipe> randomRecipes = new List<Recipe>();
+            return View();
         }
 
         // GET: Users/Create
