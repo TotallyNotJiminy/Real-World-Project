@@ -4,31 +4,56 @@
     ViewBag.Title = "Log in";
 }
 
-<h2>@ViewBag.Title.</h2>
-<div class="row">
+<section class="hero" id="hero" style="padding-top: 90px; padding-bottom:90px;">
+    <h2 class="hero_header">Log in </h2>
+    <p class="tagline">Just log in to get started</p>
+</section>
+
+<p>&nbsp;</p>
+<div class="col-md-4">
+    <section id="socialLoginForm">
+        @Html.Partial("_ExternalLoginsListPartial", new ExternalLoginListViewModel { ReturnUrl = ViewBag.ReturnUrl })
+    </section>
+</div>
+<div class="hold">
     <div class="col-md-8">
         <section id="loginForm">
-            @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+            @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "log_container", role = "form" }))
             {
                 @Html.AntiForgeryToken()
-                <h4>If you already have an account with us, login here.</h4>
+                <h4 style="text-align:center;">Sign In .</h4>
                 <hr />
+
+
                 @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-                <div class="form-group">
+                <div class="form-group" style="text-align:center;">
                     @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })
                     <div class="col-md-10">
                         @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
                         @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
                     </div>
                 </div>
-                <div class="form-group">
+                <div class="form-group" style="text-align:center";>
                     @Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label" })
                     <div class="col-md-10">
                         @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
                         @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
                     </div>
                 </div>
-                <div class="form-group">
+
+                <div class="form-group" style="text-align:center;">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Log in" class="Button" style="background-color: #4CAF50;
+                          color: white;
+                          padding: 14px 20px;
+                           margin: 8px 0;
+                            border: none;
+                            cursor: pointer;
+                            width: 100%;" />
+                    </div>
+                </div>
+
+                <div class="form-group" style="text-align:center;" >
                     <div class="col-md-offset-2 col-md-10">
                         <div class="checkbox">
                             @Html.CheckBoxFor(m => m.RememberMe)
@@ -36,11 +61,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="form-group">
-                    <div class="col-md-offset-2 col-md-10">
-                        <input type="submit" value="Log in" class="btn btn-default" />
-                    </div>
-                </div>
+                
                 <p>
                     @Html.ActionLink("Register as a new user", "Register")
                 </p>
@@ -51,13 +72,23 @@
             }
         </section>
     </div>
-    <div class="col-md-4">
-        <section id="socialLoginForm">
-            @Html.Partial("_ExternalLoginsListPartial", new ExternalLoginListViewModel { ReturnUrl = ViewBag.ReturnUrl })
-        </section>
-    </div>
+    
 </div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
+
+<section class="footer_banner" id="contact">
+    <h2 class="hidden">Footer Banner Section </h2>
+    <p class="hero_header">For news and updates subscribe to our newsletter:</p>
+    <div class="button">subscribe</div>
+</section>
+
+<!-- Copyrights Section -->
+<div class="copyright">&copy; 2017 - <strong>Group C4 - Real World Project 206CDE</strong></div>
+</div>
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
 }

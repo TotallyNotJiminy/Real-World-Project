@@ -40,3 +40,17 @@ C:\Users\callum\Desktop\Real-World-Project\F.app\F.app.Core\bin\Debug\MongoDB.Dr
 C:\Users\callum\Desktop\Real-World-Project\F.app\F.app.Core\obj\Debug\F.app.Core.csprojResolveAssemblyReference.cache
 C:\Users\callum\Desktop\Real-World-Project\F.app\F.app.Core\obj\Debug\F.app.Core.dll
 C:\Users\callum\Desktop\Real-World-Project\F.app\F.app.Core\obj\Debug\F.app.Core.pdb
+C:\Users\xCookes\Desktop\F.app\F.app.Core\bin\Debug\F.app.Core.dll
+C:\Users\xCookes\Desktop\F.app\F.app.Core\bin\Debug\F.app.Core.pdb
+C:\Users\xCookes\Desktop\F.app\F.app.Core\bin\Debug\MongoDB.Bson.dll
+C:\Users\xCookes\Desktop\F.app\F.app.Core\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\xCookes\Desktop\F.app\F.app.Core\bin\Debug\MongoDB.Driver.dll
+C:\Users\xCookes\Desktop\F.app\F.app.Core\bin\Debug\MongoDB.Driver.Legacy.dll
+C:\Users\xCookes\Desktop\F.app\F.app.Core\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\xCookes\Desktop\F.app\F.app.Core\bin\Debug\MongoDB.Bson.xml
+C:\Users\xCookes\Desktop\F.app\F.app.Core\bin\Debug\MongoDB.Driver.xml
+C:\Users\xCookes\Desktop\F.app\F.app.Core\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\xCookes\Desktop\F.app\F.app.Core\bin\Debug\MongoDB.Driver.Legacy.xml
+C:\Users\xCookes\Desktop\F.app\F.app.Core\obj\Debug\F.app.Core.csprojResolveAssemblyReference.cache
+C:\Users\xCookes\Desktop\F.app\F.app.Core\obj\Debug\F.app.Core.dll
+C:\Users\xCookes\Desktop\F.app\F.app.Core\obj\Debug\F.app.Core.pdb
