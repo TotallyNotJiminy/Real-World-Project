@@ -29,5 +29,7 @@ namespace F.app.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<F.app.Core.Entities.Ingredient> Ingredients { get; set; }
     }
 }

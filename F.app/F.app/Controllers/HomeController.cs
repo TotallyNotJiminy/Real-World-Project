@@ -33,14 +33,20 @@ namespace F.app.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "The ultimate student convenience.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Contact us here at the Student Food App:";
+
+            return View();
+        }
+        public ActionResult Delivery()
+        {
+            ViewBag.Message = "Del us here at the Student Food App:";
 
             return View();
         }

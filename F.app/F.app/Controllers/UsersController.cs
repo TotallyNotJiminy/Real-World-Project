@@ -15,11 +15,13 @@ namespace F.app.Controllers
     public class UsersController : Controller
     {
         private IRepo<User,ObjectId> _context;
+        private IRepo<Ingredient, ObjectId> _IngrContext;
    
-        public UsersController(IRepo<User,ObjectId> context)
+        public UsersController(IRepo<User,ObjectId> context, IRepo<Ingredient,ObjectId> ingrContext)
         {
-            _context = context;
-        }
+            this._context = context;
+            this._IngrContext = ingrContext;
+        }        
         // GET: Users
         public ActionResult Index()
         {
@@ -32,6 +34,10 @@ namespace F.app.Controllers
         public ActionResult Details(int id)
         {
             return View();
+        }
+        public ActionResult startRating(int id)
+        {
+            List<Recipe> randomRecipes = new List<Recipe>();
         }
 
         // GET: Users/Create
@@ -46,7 +52,13 @@ namespace F.app.Controllers
         {
             try
             {
-                //Context.users.Insert(_user);
+                List<ingRating> ratingsTable = new List<ingRating>();
+       
+                for (var i = 0; i < _IngrContext.List().Count(); i++)
+                    ratingsTable.Add(new ingRating {ingrName= _IngrContext.List()[i].Name,rating=0 });
+
+                _user.ratings = ratingsTable;
+                _context.Insert(_user);
                 return RedirectToAction("Index");
             }
             catch

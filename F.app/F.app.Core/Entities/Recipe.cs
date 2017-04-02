@@ -1,20 +1,23 @@
-﻿using MongoDB.Bson;
+﻿using F.app.Core.Interfaces;
+using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace F.app.Core.Entities
 {
-    public struct IngredientQuantity
+    public class IngredientQuantity
     {
-        Ingredient ingredient;
-        int quantity;
+        public Ingredient ingredient { get; set; }
+        int quantity { get; set; }
     }
-    public class Recipe
+    public class Recipe:IEntity
     {
+        
         [BsonId]
         public ObjectId Id { get; set; }
         public string PrepInstruction { get; set; }

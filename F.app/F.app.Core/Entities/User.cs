@@ -9,11 +9,6 @@ using System.Threading.Tasks;
 
 namespace F.app.Core.Entities
 {
-    public class Rating
-    {
-        Ingredient ingredient;
-        int rating;
-    }
     public class User : IEntity
     {
         [BsonId]
@@ -32,11 +27,12 @@ namespace F.app.Core.Entities
         public List<Ingredient> Allergies { get; set; }
         public List<ingRating> ratings { get; set; }
         //public virtual List<Ingredient> Ingredients { get; set; }
-
     }
     public class ingRating
     {
-        public Ingredient ingr { get; set; }
+        //public virtual List<Ingredient> Ingredients { get; set; }
+        //public string Ingredientid { get; set; }
+        public string ingrName { get; set; }
         public int rating { get; set; }
     }
 }

@@ -16,6 +16,6 @@ namespace F.app.Core.Interfaces
         void Delete(TEntity entity);
         TEntity GetById(Tkey id);
         //TEntity Single(Expression<Func<TEntity, bool>> predicate, params Expression<Func<T, object>>[] includes);
-        IList<TEntity> List(Expression<Func<TEntity, bool>> predicate=null, Func<TEntity, string> order = null);
+        List<TEntity> List(Expression<Func<TEntity, bool>> predicate=null, Func<TEntity, string> order = null);
     }
 }

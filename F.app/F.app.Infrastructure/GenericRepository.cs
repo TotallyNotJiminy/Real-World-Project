@@ -61,7 +61,7 @@ namespace F.app.Infrastructure
             }
         }
 
-        public IList<TEntity> List(Expression<Func<TEntity, bool>> predicate=null, Func<TEntity, string> order = null)
+        public List<TEntity> List(Expression<Func<TEntity, bool>> predicate=null, Func<TEntity, string> order = null)
         {
             var set = CreateSet();
             if (predicate != null)

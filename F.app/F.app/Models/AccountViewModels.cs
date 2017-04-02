@@ -65,6 +65,18 @@ namespace F.app.Models
     public class RegisterViewModel
     {
         [Required]
+        [Display(Name = "Firstname")]
+        public string Firstname { get; set; }
+
+        [Required]
+        [Display(Name = "Surname")]
+        public string Surname { get; set; }
+
+        [Required]
+        [Display(Name = "Phone Number")]
+        public string Telephone { get; set; }
+
+        [Required]
         [EmailAddress]
         [Display(Name = "Email")]
         public string Email { get; set; }

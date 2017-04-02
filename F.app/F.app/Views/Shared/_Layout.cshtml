@@ -1,44 +1,88 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title - The Student Food App</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
+    <div class="container" ?>
+        <header>
+
+            <span class="logo" @Html.ActionLink("Home", "Index", "Home")>
+                <div id="DivLogo">
+                    <img src="images/LOGO1.png" width="300" height="44" align="middle">
+                </div>
+            </span>
+            <h4 class="logo"></h4>
+            <nav>
+                <ul>
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Delivery", "Delivery", "Home")</li>
                 </ul>
                 @Html.Partial("_LoginPartial")
-            </div>
-        </div>
-    </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
-    </div>
+            </nav>
+            </header>
+            <section class="hero" id="hero">
+                <h2 class="hero_header">Student Food</h2>
+                <p class="tagline">Welcome to the Student Food site, making the student struggle that little bit easier.</p>
+            </section>
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+
+            @*<div>
+                    <nav>
+                        <div>
+                            <button type="button">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                        </div>
+                        <h4 class="logo"></h4>
+
+                </div>*@
+
+        
+        <div class="container body-content">
+            @RenderBody()
+
+            @*<footer>
+                    <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+                </footer>*@
+        </div>
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+
+        <footer>
+            <article class="footer_column">
+                <h3>The student lifestyle</h3>
+                <img src="images/food_pyramid.jpg" alt="" width="400" height="200" class="cards" />
+                <p>Students are lazy. They do not eat as well as they should (yes, that means you). Nutrition is important because reasons.</p>
+            </article>
+            <article class="footer_column">
+                <h3>How we can fix it</h3>
+                <img src="images/burger_meal.jpg" alt="" width="400" height="200" class="cards" />
+                <p>This site is designed to fix your lifestyle - trust me.</p>
+            </article>
+        </footer>
+
+        <!-- Footer Section -->
+        <section class="footer_banner" id="contact">
+            <h2 class="hidden">Footer Banner Section </h2>
+            <p class="hero_header">For news and updates subscribe to our newsletter:</p>
+            <div class="button">subscribe</div>
+        </section>
+
+        <!-- Copyrights Section -->
+        <div class="copyright">&copy; 2017 - <strong>Group C4 - Real World Project 206CDE</strong></div>
+    </div>
 </body>
 </html>

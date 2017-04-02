@@ -13,7 +13,7 @@ namespace F.app.Infrastructure
 {
     public class DataContext
     {
-        public const string connectionStringName = "mongodb://aiwiss:1234@cluster0-shard-00-00-whjz1.mongodb.net:27017,cluster0-shard-00-01-whjz1.mongodb.net:27017,cluster0-shard-00-02-whjz1.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin";
+        public const string connectionString/*Name*/ = "mongodb://aiwiss:1234@cluster0-shard-00-00-whjz1.mongodb.net:27017,cluster0-shard-00-01-whjz1.mongodb.net:27017,cluster0-shard-00-02-whjz1.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin";
         public const string DataBaseName = "test";
 
         private static readonly MongoClient _client;
@@ -22,7 +22,7 @@ namespace F.app.Infrastructure
 
         static DataContext()
         {
-            var connectionString = ConfigurationManager.ConnectionStrings[connectionStringName].ConnectionString;
+            //var connectionString = ConfigurationManager.ConnectionStrings[connectionStringName].ConnectionString;
             _client = new MongoClient(connectionString);
             var server = _client.GetServer();
             _db = server.GetDatabase(DataBaseName);
