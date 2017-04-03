@@ -51,5 +51,11 @@ namespace F.app.Controllers
 
             return View();
         }
+        public ActionResult home()
+        {
+            ViewBag.Message = "Welcome";
+
+            return View();
+        }
     }
 }

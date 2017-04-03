@@ -54,3 +54,17 @@ C:\Users\xCookes\Desktop\F.app\F.app.Core\bin\Debug\MongoDB.Driver.Legacy.xml
 C:\Users\xCookes\Desktop\F.app\F.app.Core\obj\Debug\F.app.Core.csprojResolveAssemblyReference.cache
 C:\Users\xCookes\Desktop\F.app\F.app.Core\obj\Debug\F.app.Core.dll
 C:\Users\xCookes\Desktop\F.app\F.app.Core\obj\Debug\F.app.Core.pdb
+E:\Real-World-Project\F.app\F.app.Core\bin\Debug\F.app.Core.dll
+E:\Real-World-Project\F.app\F.app.Core\bin\Debug\F.app.Core.pdb
+E:\Real-World-Project\F.app\F.app.Core\bin\Debug\MongoDB.Bson.dll
+E:\Real-World-Project\F.app\F.app.Core\bin\Debug\MongoDB.Driver.Core.dll
+E:\Real-World-Project\F.app\F.app.Core\bin\Debug\MongoDB.Driver.dll
+E:\Real-World-Project\F.app\F.app.Core\bin\Debug\MongoDB.Driver.Legacy.dll
+E:\Real-World-Project\F.app\F.app.Core\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Real-World-Project\F.app\F.app.Core\bin\Debug\MongoDB.Bson.xml
+E:\Real-World-Project\F.app\F.app.Core\bin\Debug\MongoDB.Driver.xml
+E:\Real-World-Project\F.app\F.app.Core\bin\Debug\MongoDB.Driver.Core.xml
+E:\Real-World-Project\F.app\F.app.Core\bin\Debug\MongoDB.Driver.Legacy.xml
+E:\Real-World-Project\F.app\F.app.Core\obj\Debug\F.app.Core.csprojResolveAssemblyReference.cache
+E:\Real-World-Project\F.app\F.app.Core\obj\Debug\F.app.Core.dll
+E:\Real-World-Project\F.app\F.app.Core\obj\Debug\F.app.Core.pdb
