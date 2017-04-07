@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fappnation.myfoodapplication.FappClubFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/beef"
+        android:id="@+id/imageView6"
+        android:layout_below="@+id/textView36"
+        android:layout_alignStart="@+id/textView36"
+        android:layout_marginTop="46dp" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/fishandchips2"
+        android:id="@+id/imageView8"
+        android:layout_alignTop="@+id/imageView6"
+        android:layout_alignEnd="@+id/textView36" />
+
+    <TextView
+        android:text="Fish and Chips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView41"
+        android:layout_alignTop="@+id/imageView8"
+        android:layout_alignStart="@+id/imageView8"
+        android:layout_marginStart="19dp" />
+
+    <TextView
+        android:text="Beef Saviore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/textView39"
+        android:layout_alignTop="@+id/imageView6"
+        android:layout_alignEnd="@+id/textView40"
+        android:layout_marginEnd="12dp" />
+
+    <TextView
+        android:text="Chicken Palaneze"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView17"
+        android:layout_alignBaseline="@+id/textView40"
+        android:layout_alignBottom="@+id/textView40"
+        android:layout_alignStart="@+id/textView41" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/chicken2"
+        android:id="@+id/imageView7"
+        android:layout_below="@+id/imageView8"
+        android:layout_alignStart="@+id/textView17" />
+
+    <Button
+        android:text="Proceed to delivery"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:background="@android:color/holo_green_light"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Choose your meals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:id="@+id/textView36"
+        android:textSize="36sp"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/roastduck"
+        android:id="@+id/imageView5"
+        android:layout_below="@+id/imageView6"
+        android:layout_alignStart="@+id/imageView6" />
+
+    <TextView
+        android:text="Roast Duck Kalinka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/textView40"
+        android:layout_above="@+id/imageView5"
+        android:layout_alignEnd="@+id/imageView6"
+        android:layout_marginEnd="12dp" />
+
+</RelativeLayout>

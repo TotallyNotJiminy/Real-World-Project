@@ -1,0 +1,224 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fappnation.myfoodapplication.MainFragment"
+    android:weightSum="1">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:layout_gravity="bottom">
+
+        <TextView
+            android:text="Your Friend's recent meals:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView54"
+            android:layout_gravity="top|center"
+            android:textSize="24sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="157dp">
+
+        <TextView
+            android:text="Your Recomended meals:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView53"
+            android:layout_gravity="bottom|center"
+            android:textSize="30sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Feed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView52"
+            android:textSize="36sp"
+            android:textStyle="normal|bold"
+            android:textColor="@android:color/holo_green_dark"
+            android:layout_gravity="top|center" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:gravity="center">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="145dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="1">
+
+                    <ImageView
+                        app:srcCompat="@drawable/bakedpotato"
+                        android:id="@+id/imageView16"
+                        android:layout_weight="1"
+                        android:layout_height="150dp"
+                        android:layout_width="150dp" />
+
+                    <ImageView
+                        app:srcCompat="@drawable/fishandchips2"
+                        android:id="@+id/imageView18"
+                        android:layout_width="135dp"
+                        android:layout_height="150dp" />
+
+                    <ImageView
+                        app:srcCompat="@drawable/beef"
+                        android:id="@+id/imageView17"
+                        android:layout_width="135dp"
+                        android:layout_height="150dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="335dp"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:weightSum="1">
+
+                        <ImageView
+                            android:layout_height="98dp"
+                            app:srcCompat="@drawable/left"
+                            android:id="@+id/imageView19"
+                            android:layout_width="75dp"
+                            android:layout_gravity="top|left|center"
+                            android:layout_weight="0.09"
+                            android:clickable="true" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <ImageView
+                    app:srcCompat="@drawable/right"
+                    android:id="@+id/imageView20"
+                    android:layout_width="75dp"
+                    android:layout_height="98dp"
+                    android:layout_gravity="right|center"
+                    android:clickable="true" />
+
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="141dp"
+        android:layout_gravity="bottom">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="114dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_height="match_parent"
+                    android:layout_width="126dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/pork"
+                        android:id="@+id/imageView22" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_height="match_parent"
+                    android:layout_width="126dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        app:srcCompat="@drawable/roastduck"
+                        android:id="@+id/imageView23"
+                        android:layout_height="100dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="126dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.05">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/chicken2"
+                        android:id="@+id/imageView21" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left">
+
+                <ImageView
+                    app:srcCompat="@drawable/left"
+                    android:id="@+id/imageView24"
+                    android:layout_width="75dp"
+                    android:layout_height="98dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="143dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="81dp">
+
+                    <ImageView
+                        app:srcCompat="@drawable/right"
+                        android:id="@+id/imageView25"
+                        android:layout_gravity="right"
+                        android:layout_width="75dp"
+                        android:layout_height="98dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

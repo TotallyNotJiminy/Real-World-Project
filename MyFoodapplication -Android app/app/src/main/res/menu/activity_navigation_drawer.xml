@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Feed"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Feed" />
+        <item
+            android:id="@+id/Fapterr"
+            android:title="Fapter" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+        <item
+            android:id="@+id/FapClub"
+            android:icon="@drawable/ic_menu_share"
+            android:title="FappClub" />
+        <item
+            android:id="@+id/Howtouse"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="How to use the app" />
+
+        <item
+            android:id="@+id/Quit"
+            android:title="Sign out" />
+    </group>
+
+</menu>

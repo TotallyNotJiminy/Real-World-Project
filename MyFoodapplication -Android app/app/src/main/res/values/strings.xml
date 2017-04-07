@@ -1,0 +1,119 @@
+<resources>
+
+    <string name="app_name">Food App</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="sign_in">Sign in</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t Have an account? SIGN UP</string>
+    <string name="register">Register</string>
+    <string name="choose_an_username">Choose an username</string>
+    <string name="confrim_password">Confrim password</string>
+    <string name="enter_email">Enter email</string>
+    <string name="_0">0£</string>
+    <string name="_15">15£</string>
+    <string name="_50">50£</string>
+    <string name="for_example_900cl">For example 900cl</string>
+    <string name="ideal_daily_calories">Ideal Daily Calories</string>
+    <string name="select_a_weekly_budget">Select a weekly budget</string>
+    <string name="set_up">Set Up</string>
+    <string name="select_diet">Select diet</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="button">Button</string>
+    <string name="food_preference">Food Preference</string>
+    <string name="choose_your_prefered_kind_of_food">choose your prefered kind of food</string>
+    <string name="done">Done</string>
+    <string name="beef">Beef</string>
+    <string name="chicken">Chicken</string>
+    <string name="pork">Pork</string>
+    <string name="vegetables">Vegetables</string>
+    <string-array name="diets">
+        <item>Standard Diet</item>
+        <item>Advanced Diet</item>
+        <item>Super Diet</item>
+    </string-array>
+    <string-array name="height">
+        <item>1 ft</item>
+        <item>2 ft</item>
+        <item>3 ft</item>
+        <item>4 ft</item>
+        <item>5 ft</item>
+        <item>6 ft</item>
+        <item>7 ft</item>
+        <item>8 ft</item>
+    </string-array>
+    <string-array name="inches">
+        <item>1 inches</item>
+        <item>2 inches</item>
+        <item>3 inches</item>
+        <item>4 inches</item>
+        <item>5 inches</item>
+        <item>6 inches</item>
+        <item>7 inches</item>
+        <item>8 inches</item>
+        <item>9 inches</item>
+        <item>10 inches</item>
+    </string-array>
+    <string-array name="Weight">
+        <item>1 stone</item>
+        <item>2 stones</item>
+        <item>3 stones</item>
+        <item>4 stones</item>
+        <item>5 stones</item>
+        <item>6 stones</item>
+        <item>7 stones</item>
+        <item>8 stones</item>
+        <item>9 stones</item>
+        <item>10 stones</item>
+        <item>11 stones</item>
+        <item>12 stones</item>
+        <item>13 stones</item>
+        <item>14 stones</item>
+        <item>15 stones</item>
+        <item>16 stones</item>
+    </string-array>
+    <string-array name="Ounces">
+        <item>1 Ounce</item>
+        <item>2 Ounces</item>
+        <item>3 Ounces</item>
+        <item>4 Ounces</item>
+        <item>5 Ounces</item>
+        <item>6 Ounces</item>
+        <item>7 Ounces</item>
+        <item>8 Ounces</item>
+        <item>9 Ounces</item>
+        <item>10 Ounces</item>
+        <item>11 Ounces</item>
+        <item>12 Ounces</item>
+        <item>13 Ounces</item>
+        <item>14 Ounces</item>
+        <item>15 Ounces</item>
+        <item>16 Ounces</item>
+    </string-array>
+    <string-array name="Activeness">
+        <item>Semi Active</item>
+        <item>Active</item>
+        <item>Really Active</item>
+        <item>Cannot move</item>
+    </string-array>
+    <string name="title_activity_testtest">Testtest</string>
+    <string name="title_activity_navigation">Navigation</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="feed">Feed</string>
+    <string name="test">Test</string>
+    <string name="almost_there">Almost There!</string>
+    <string name="please_rate_the_following_items_in_order_to_provide_the_best_possible_menu_for_you">Please rate the following items in order to provide the best possible menu for you</string>
+    <string name="proceed">Proceed</string>
+    <string name="_1_potato">1.Potato</string>
+    <string name="_2_cream">2.Cream</string>
+    <string name="_3_beans">3.Beans</string>
+    <string name="_4_carrots">4.Carrots</string>
+    <string name="a_baked_potato_garnished_with_creamy_mashed_potato_beans_and_covered_in_carrot_strips">A baked potato garnished with creamy mashed potato ,beans and covered in carrot strips</string>
+    <string name="description">Description</string>
+</resources>

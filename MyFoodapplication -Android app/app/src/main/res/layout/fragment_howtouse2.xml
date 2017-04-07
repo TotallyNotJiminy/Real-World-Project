@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fappnation.myfoodapplication.Howtouse">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:text="-Browse Recipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="32dp"
+        android:id="@+id/textView43"
+        android:layout_below="@+id/textView37"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_green_light" />
+
+    <TextView
+        android:text="Free User"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView37"
+        android:textSize="24sp"
+        android:layout_marginTop="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="131dp"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <TextView
+        android:text="-Share Recipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView44"
+        android:layout_below="@+id/textView43"
+        android:layout_alignStart="@+id/textView43"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_green_light" />
+
+    <TextView
+        android:text="-Compare Prices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView42"
+        android:layout_below="@+id/textView44"
+        android:layout_alignStart="@+id/textView44"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_green_light" />
+
+    <TextView
+        android:text="Paid User"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView45"
+        android:textSize="24sp"
+        android:layout_below="@+id/textView42"
+        android:layout_alignStart="@+id/textView37"
+        android:layout_marginTop="111dp"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:text="- All of the above"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView47"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView45"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/holo_blue_light" />
+
+    <TextView
+        android:text="-Get Food delivered straight to his door"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView46"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView47"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/holo_blue_light" />
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fappnation.myfoodapplication.GalleryFragment">
+
+    <TextView
+        android:text="Fapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView18"
+        android:textSize="30sp"
+        android:textColor="@color/colorAccent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp" />
+
+    <TextView
+        android:text="Swipe right and left to like and dislike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView18"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:id="@+id/textView48"
+        android:textStyle="normal|italic" />
+
+    <ImageView
+        app:srcCompat="@drawable/beef"
+        android:id="@+id/imageView9"
+        android:layout_width="320dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="275dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/stargold"
+        android:id="@+id/imageView10"
+        android:layout_below="@+id/imageView9"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="150dp"
+        app:srcCompat="@drawable/thumbdown"
+        android:id="@+id/imageView2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_height="100dp" />
+
+    <ImageView
+        android:layout_width="150dp"
+        app:srcCompat="@drawable/thumbup"
+        android:id="@+id/imageView4"
+        android:layout_height="90dp"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_toEndOf="@+id/textView18" />
+
+
+</RelativeLayout>

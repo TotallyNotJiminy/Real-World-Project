@@ -1,0 +1,10 @@
+             Code for Switching screens 
+
+ Button Proceed2 =(Button)findViewById(R.id.next1);
+        Proceed2.setOnClickListener(
+                new Button.OnClickListener() {
+                    public void onClick(View v) {
+                        startActivity(new Intent(Askme.this, Foodrate.class)); //current activity and activity to be placed
+                    }
+                }
+        );

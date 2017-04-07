@@ -1,0 +1,155 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fappnation.myfoodapplication.SettingsFragment">
+
+    <TextView
+        android:text="5'1 ft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView23"
+
+        android:layout_marginEnd="20dp"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Very Active"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView27"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/textView23"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Activeness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView26"
+        android:textStyle="normal|bold"
+        android:layout_marginLeft="37dp"
+        android:layout_alignBaseline="@+id/textView27"
+        android:layout_alignBottom="@+id/textView27"
+        android:layout_toEndOf="@+id/textView31"
+        android:layout_marginStart="31dp" />
+
+    <TextView
+        android:text="17 stones"
+        android:id="@+id/textView22"
+        android:layout_marginLeft="37dp"
+        android:layout_width="75dp"
+        android:layout_height="15dp"
+        android:layout_below="@+id/textView23"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="14dp" />
+
+    <TextView
+        android:text="Weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView25"
+        android:textStyle="normal|bold"
+        android:layout_marginLeft="37dp"
+        android:layout_alignBaseline="@+id/textView22"
+        android:layout_alignBottom="@+id/textView22"
+        android:layout_alignEnd="@+id/textView24" />
+
+    <TextView
+        android:text="Height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView24"
+        android:textStyle="normal|bold"
+
+        android:layout_above="@+id/textView27"
+        android:layout_alignStart="@+id/textView26"
+        android:layout_marginStart="12dp" />
+
+    <Button
+        android:text="Edit Delivery details"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/DelDet"
+        android:textSize="12sp"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/holo_blue_dark"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:layout_marginTop="111dp"
+        android:layout_below="@+id/Chang1"
+        android:layout_alignStart="@+id/Chang1" />
+
+    <TextView
+        android:text="Coventry , Middleborough 18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView31"
+        android:layout_marginTop="59dp"
+        android:layout_below="@+id/Chang1"
+        android:layout_alignStart="@+id/DelDet" />
+
+    <Button
+        android:text="Edit Personal Details"
+        android:layout_width="250dp"
+        android:id="@+id/PersDet"
+        android:textSize="12sp"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/holo_blue_dark"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DelDet"
+        android:layout_alignStart="@+id/DelDet" />
+
+    <TextView
+        android:text="CV1 5DO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView32"
+        android:layout_alignBaseline="@+id/textView31"
+        android:layout_alignBottom="@+id/textView31"
+        android:layout_toStartOf="@+id/textView22" />
+
+    <TextView
+        android:text="Delivery Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView28"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/Chang1"
+        android:layout_alignStart="@+id/Chang1" />
+
+
+    <Button
+        android:text="Change Your Profile Picture"
+        android:id="@+id/Chang1"
+        android:textSize="8sp"
+        android:layout_height="38dp"
+        android:layout_width="122dp"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/holo_blue_dark"
+
+        android:layout_below="@+id/imageView3"
+        android:layout_alignStart="@+id/textView29"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:text="United Kingdom , West Midlands"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView29"
+        android:layout_above="@+id/textView32"
+        android:layout_toStartOf="@+id/textView32" />
+
+    <ImageView
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/noprofile"
+        android:id="@+id/imageView3"
+        android:layout_width="150dp"
+        android:layout_marginTop="82dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/Chang1" />
+</RelativeLayout>
